@@ -117,6 +117,10 @@ This matters because a betting model can look unrealistically strong if it accid
 
 If you just want to run the sample project as-is, do this from the project root.
 
+Published repository:
+
+- `https://github.com/kadioko/tuondokee`
+
 ### 1. Create a virtual environment and install packages
 
 ```bash
@@ -273,6 +277,8 @@ Ready-made presets are now included for:
 - `config/presets/epl_1x2_config.json`
 - `config/presets/laliga_1x2_config.json`
 - `config/presets/bundesliga_1x2_config.json`
+- `config/presets/ucl_1x2_config.json`
+- `config/presets/uel_1x2_config.json`
 
 These give you separate artifact folders for true per-league model runs.
 
@@ -290,6 +296,8 @@ Examples:
 - `config/presets/epl_over25_config.json`
 - `config/presets/laliga_btts_config.json`
 - `config/presets/bundesliga_homewin_config.json`
+- `config/presets/ucl_over05_config.json`
+- `config/presets/uel_btts_config.json`
 
 ## Beginner-Friendly Terminal Workflows
 
@@ -337,6 +345,8 @@ powershell -ExecutionPolicy Bypass -File scripts/train_all_models.ps1
 powershell -ExecutionPolicy Bypass -File scripts/train_league_models.ps1 -League epl
 powershell -ExecutionPolicy Bypass -File scripts/train_league_models.ps1 -League laliga
 powershell -ExecutionPolicy Bypass -File scripts/train_league_models.ps1 -League bundesliga
+powershell -ExecutionPolicy Bypass -File scripts/train_league_models.ps1 -League ucl
+powershell -ExecutionPolicy Bypass -File scripts/train_league_models.ps1 -League uel
 ```
 
 ### Generate a current multi-league report
@@ -366,7 +376,10 @@ powershell -ExecutionPolicy Bypass -File scripts/generate_league_report.ps1 -Lea
   - a cleaner betting-slip style export with matchup, kickoff, market, best bookmaker, edge, and Kelly stake fields
 
 - `value_opinions.txt`
-  - plain-English summary grouped by match, with both result and goals opinions
+  - plain-English summary grouped by match, with all scored market views and explicit model opinions such as `VALUE BET`, `WATCHLIST`, or `PASS`
+
+- `value_opinions.html`
+  - shareable HTML version of the report for viewing outside the terminal
 
 - `walkforward_predictions.csv`
   - selection-level out-of-sample walkforward predictions used for reliability checks
@@ -374,7 +387,7 @@ powershell -ExecutionPolicy Bypass -File scripts/generate_league_report.ps1 -Lea
 - `calibration_diagnostics_oos.csv`
   - out-of-sample calibration summary from walkforward predictions
 
-The report tells you, in everyday language, whether a selection looks like a **value bet** or a **pass**, with the model's probability, the fair market probability, and the edge percentage.
+The report tells you, in everyday language, whether a selection looks like a **value bet**, **watchlist**, or **pass**, with the model's probability, the fair market probability, and the edge percentage.
 
 ## How to Read `value_opinions.txt`
 
@@ -403,6 +416,7 @@ Each match block shows:
 - kickoff time
 - bookmaker offering the price
 - market and odds
+- model opinion (`VALUE BET`, `WATCHLIST`, or `PASS`)
 - model probability
 - fair market probability
 - edge
@@ -412,9 +426,10 @@ Example:
 
 ```text
 Kickoff: Sat 21 Mar 17:30
-Under 2.5 Goals @ 2.50 with William Hill → VALUE BET [STRONG]
-Our model: 48.4% | Market fair: 37.5% | Edge: +10.9%
-Suggested stake: Full stake (25 units)
+over_2_5: Under 2.5 Goals @ 2.50 with William Hill → VALUE BET [WATCH]
+Our model: 44.3% | Market fair: 37.5% | Edge: +6.8%
+Model thinks: VALUE BET [WATCH]
+Suggested stake: Half stake (12.5 units)
 ```
 
 ### 3. Strength labels
@@ -468,14 +483,33 @@ Confidence tiers now use **both**:
 
 That means a pick with a large edge can still be downgraded if its supporting model has weaker out-of-sample reliability.
 
-### 5. Result market vs goals market
+### 5. Full market-view report
 
 The combined report can show more than one angle on the same match:
 
 - a **result** opinion, such as `Home Win` or `Away Win`
-- a **goals** opinion, such as `Over 1.5 Goals` or `Under 2.5 Goals`
+- a **goals** opinion, such as `Over 0.5 Goals`, `Over 1.5 Goals`, or `Under 2.5 Goals`
+- a **BTTS** opinion, such as `BTTS Yes` or `BTTS No`
+- a **home_win** opinion, such as `Home Win` or `Draw or Away`
 
-That is why one match can appear with two separate picks if both markets offer value.
+That is why one match can appear with several separate model views if multiple markets were scored.
+
+The text, CSV, and HTML reports now keep one opinion per exact market instead of collapsing all totals into a single shared bucket.
+
+## Publishing
+
+This project is published at:
+
+- `https://github.com/kadioko/tuondokee`
+
+Typical update flow:
+
+```bash
+git status
+git add .
+git commit -m "Describe your update"
+git push origin main
+```
 
 ## Calibration Diagnostics
 
