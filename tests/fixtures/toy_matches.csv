@@ -1,0 +1,11 @@
+match_id,kickoff_time,league,season,home_team,away_team,home_goals,away_goals
+M1,2023-08-01 18:00:00,EPL,2023/2024,Arsenal,Everton,2,0
+M2,2023-08-02 18:00:00,EPL,2023/2024,Chelsea,Liverpool,1,1
+M3,2023-08-03 18:00:00,EPL,2023/2024,Tottenham,Arsenal,0,3
+M4,2023-08-05 18:00:00,EPL,2023/2024,Everton,Chelsea,0,1
+M5,2023-08-06 18:00:00,EPL,2023/2024,Liverpool,Tottenham,2,2
+M6,2023-08-10 18:00:00,EPL,2023/2024,Arsenal,Chelsea,1,0
+M7,2023-08-11 18:00:00,EPL,2023/2024,Everton,Liverpool,1,2
+M8,2023-08-12 18:00:00,EPL,2023/2024,Tottenham,Chelsea,2,1
+M9,2023-08-15 18:00:00,EPL,2023/2024,Liverpool,Arsenal,1,2
+M10,2023-08-16 18:00:00,EPL,2023/2024,Chelsea,Everton,2,0

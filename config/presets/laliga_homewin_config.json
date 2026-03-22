@@ -1,0 +1,42 @@
+{
+  "paths": {
+    "matches_csv": "data/sample/matches.csv",
+    "odds_csv": "data/sample/odds_snapshots.csv",
+    "artifacts_dir": "artifacts_laliga_homewin"
+  },
+  "features": {
+    "snapshot_minutes_before_kickoff": 60,
+    "form_windows": [
+      5,
+      10
+    ],
+    "elo_k": 20.0,
+    "min_history_matches": 3,
+    "league_filters": [
+      "La Liga"
+    ]
+  },
+  "model": {
+    "market": "home_win",
+    "target": "binary",
+    "binary_market": "home_win",
+    "calibration": true,
+    "n_splits": 4,
+    "gap_matches": 0,
+    "random_state": 42
+  },
+  "tuning": {
+    "enabled": true,
+    "n_trials": 20,
+    "timeout_seconds": 600
+  },
+  "betting": {
+    "initial_bankroll": 1000.0,
+    "staking": "flat",
+    "flat_stake": 25.0,
+    "fractional_kelly_fraction": 0.25,
+    "minimum_edge": 0.03,
+    "max_stake_pct": 0.05,
+    "bookmaker": null
+  }
+}

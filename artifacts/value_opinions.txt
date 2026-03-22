@@ -1,0 +1,276 @@
+============================================================
+  MULTI-LEAGUE VALUE REPORT — 21 Mar to 22 Mar 2026
+============================================================
+
+How to read this report:
+  - By default, this report shows only bets that cleared the edge threshold.
+  - 'Value bet' means our model thinks the true chance is
+    higher than what the bookmaker's odds imply — the price
+    is generous enough to bet on.
+  - Strength labels help you separate stronger edges from marginal ones.
+  - 'Edge' is how much extra probability our model sees
+    compared to the bookmaker (bigger = better value).
+  - 'WATCH' means the bet is still positive-value, but only by a smaller margin.
+  - A bet must clear both the edge threshold and a minimum reliability score.
+  - No model can produce sure winners; this report only ranks better-supported opinions.
+
+Best bets summary:
+  - Fulham FC vs Burnley FC: Away Win @ 6.80 [MEDIUM]
+  - CA Osasuna vs Girona FC: Away Win @ 3.60 [MEDIUM]
+  - Leeds United FC vs Brentford FC: Away Win @ 2.98 [MEDIUM]
+  - Tottenham Hotspur FC vs Nottingham Forest FC: Home Win @ 2.32 [WATCH]
+  - Tottenham Hotspur FC vs Nottingham Forest FC: Home Win @ 2.32 [WATCH]
+  - Borussia Dortmund vs Hamburger SV: Under 2.5 Goals @ 2.50 [WATCH]
+  - Borussia Dortmund vs Hamburger SV: Away Win @ 8.40 [WATCH]
+  - Tottenham Hotspur FC vs Nottingham Forest FC: Over 2.5 Goals @ 1.95 [WATCH]
+  - Aston Villa FC vs West Ham United FC: Home Win @ 2.02 [WATCH]
+  - Aston Villa FC vs West Ham United FC: Home Win @ 2.02 [WATCH]
+  - Leeds United FC vs Brentford FC: Over 2.5 Goals @ 1.91 [WATCH]
+
+------------------------------------------------------------
+All model views:
+
+  Fulham FC  vs  Burnley FC
+  ────────────────────────────────────────
+    Kickoff: Sat 21 Mar 15:00
+    1x2: Away Win @ 6.80 with Matchbook  →  VALUE BET [MEDIUM]
+      Our model: 24.3%  |  Market fair: 14.5%  |  Edge: +9.8%
+      Reliability score: 56.8/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [MEDIUM]
+      Suggested stake: Full stake (25 units)
+      Safe Kelly: 28.21 units (2.82% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 6.80 | second-best 6.80 | average 6.18
+    Kickoff: Sat 21 Mar 15:00
+    over_2_5: Under 2.5 Goals @ 2.14 with Matchbook  →  WATCHLIST [PASS]
+      Our model: 49.2%  |  Market fair: 46.0%  |  Edge: +3.2%
+      Reliability score: 41.0/100  |  Agreement: 6 market(s)
+      Model thinks: WATCHLIST [PASS]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 11.53 units (1.15% bankroll)
+      Aggressive Kelly cap: 4.61% bankroll
+      Market comparison: best 2.14 | second-best 2.00 | average 1.99
+    Kickoff: Sat 21 Mar 15:00
+    home_win: Home Win @ 1.59 with Matchbook  →  PASS
+      Our model: 55.4%  |  Market fair: 62.0%  |  Edge: -6.7%
+      Reliability score: 33.0/100  |  Agreement: 6 market(s)
+      Model thinks: PASS
+      Suggested stake: No bet
+      Safe Kelly: 0.00 units (0.00% bankroll)
+      Aggressive Kelly cap: 0.00% bankroll
+      Market comparison: best 1.59 | second-best 1.59 | average 1.53
+
+  CA Osasuna  vs  Girona FC
+  ────────────────────────────────────────
+    Kickoff: Sat 21 Mar 17:30
+    1x2: Away Win @ 3.60 with Betfair  →  VALUE BET [MEDIUM]
+      Our model: 37.4%  |  Market fair: 27.5%  |  Edge: +9.9%
+      Reliability score: 56.6/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [MEDIUM]
+      Suggested stake: Full stake (25 units)
+      Safe Kelly: 33.17 units (3.32% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 3.60 | second-best 3.55 | average 3.34
+    Kickoff: Sat 21 Mar 17:30
+    over_2_5: Over 2.5 Goals @ 2.00 with Casumo  →  WATCHLIST [PASS]
+      Our model: 49.0%  |  Market fair: 46.9%  |  Edge: +2.1%
+      Reliability score: 37.6/100  |  Agreement: 6 market(s)
+      Model thinks: WATCHLIST [PASS]
+      Suggested stake: No bet
+      Safe Kelly: 0.00 units (0.00% bankroll)
+      Aggressive Kelly cap: 0.00% bankroll
+      Market comparison: best 2.00 | second-best 2.00 | average 1.97
+    Kickoff: Sat 21 Mar 17:30
+    home_win: Home Win @ 2.22 with Betfair  →  PASS
+      Our model: 40.5%  |  Market fair: 44.6%  |  Edge: -4.1%
+      Reliability score: 33.1/100  |  Agreement: 6 market(s)
+      Model thinks: PASS
+      Suggested stake: No bet
+      Safe Kelly: 0.00 units (0.00% bankroll)
+      Aggressive Kelly cap: 0.00% bankroll
+      Market comparison: best 2.22 | second-best 2.20 | average 2.13
+
+  Leeds United FC  vs  Brentford FC
+  ────────────────────────────────────────
+    Kickoff: Sat 21 Mar 20:00
+    1x2: Away Win @ 2.98 with Matchbook  →  VALUE BET [MEDIUM]
+      Our model: 42.9%  |  Market fair: 33.1%  |  Edge: +9.8%
+      Reliability score: 56.4/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [MEDIUM]
+      Suggested stake: Full stake (25 units)
+      Safe Kelly: 35.07 units (3.51% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 2.98 | second-best 2.98 | average 2.78
+    Kickoff: Sat 21 Mar 20:00
+    over_2_5: Over 2.5 Goals @ 1.91 with Casumo  →  VALUE BET [WATCH]
+      Our model: 55.3%  |  Market fair: 49.5%  |  Edge: +5.8%
+      Reliability score: 46.3/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [WATCH]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 15.39 units (1.54% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 1.91 | second-best 1.91 | average 1.88
+    Kickoff: Sat 21 Mar 20:00
+    home_win: Home Win @ 2.60 with Betfair  →  PASS
+      Our model: 36.5%  |  Market fair: 38.4%  |  Edge: -1.9%
+      Reliability score: 33.2/100  |  Agreement: 6 market(s)
+      Model thinks: PASS
+      Suggested stake: No bet
+      Safe Kelly: 0.00 units (0.00% bankroll)
+      Aggressive Kelly cap: 0.00% bankroll
+      Market comparison: best 2.60 | second-best 2.58 | average 2.47
+
+  Tottenham Hotspur FC  vs  Nottingham Forest FC
+  ────────────────────────────────────────
+    Kickoff: Sun 22 Mar 14:15
+    1x2: Home Win @ 2.32 with Betfair  →  VALUE BET [WATCH]
+      Our model: 49.7%  |  Market fair: 42.6%  |  Edge: +7.0%
+      Reliability score: 49.5/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [WATCH]
+      Suggested stake: Half stake (12.5 units)
+      Safe Kelly: 28.87 units (2.89% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 2.32 | second-best 2.30 | average 2.22
+    Kickoff: Sun 22 Mar 14:15
+    home_win: Home Win @ 2.32 with Betfair  →  VALUE BET [WATCH]
+      Our model: 49.7%  |  Market fair: 42.6%  |  Edge: +7.0%
+      Reliability score: 49.5/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [WATCH]
+      Suggested stake: Half stake (12.5 units)
+      Safe Kelly: 28.87 units (2.89% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 2.32 | second-best 2.30 | average 2.22
+    Kickoff: Sun 22 Mar 14:15
+    over_2_5: Over 2.5 Goals @ 1.95 with Matchbook  →  VALUE BET [WATCH]
+      Our model: 56.2%  |  Market fair: 50.4%  |  Edge: +5.8%
+      Reliability score: 46.4/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [WATCH]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 25.11 units (2.51% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 1.95 | second-best 1.91 | average 1.89
+
+  Borussia Dortmund  vs  Hamburger SV
+  ────────────────────────────────────────
+    Kickoff: Sat 21 Mar 17:30
+    over_2_5: Under 2.5 Goals @ 2.50 with William Hill  →  VALUE BET [WATCH]
+      Our model: 44.3%  |  Market fair: 37.5%  |  Edge: +6.8%
+      Reliability score: 48.3/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [WATCH]
+      Suggested stake: Half stake (12.5 units)
+      Safe Kelly: 17.78 units (1.78% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 2.50 | average 2.50
+    Kickoff: Sat 21 Mar 17:30
+    1x2: Away Win @ 8.40 with Smarkets  →  VALUE BET [WATCH]
+      Our model: 17.5%  |  Market fair: 11.7%  |  Edge: +5.7%
+      Reliability score: 48.3/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [WATCH]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 15.84 units (1.58% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 8.40 | second-best 8.20 | average 7.06
+    Kickoff: Sat 21 Mar 17:30
+    home_win: Home Win @ 1.43 with Matchbook  →  PASS
+      Our model: 65.7%  |  Market fair: 68.8%  |  Edge: -3.1%
+      Reliability score: 33.0/100  |  Agreement: 6 market(s)
+      Model thinks: PASS
+      Suggested stake: No bet
+      Safe Kelly: 0.00 units (0.00% bankroll)
+      Aggressive Kelly cap: 0.00% bankroll
+      Market comparison: best 1.43 | second-best 1.43 | average 1.38
+
+  Aston Villa FC  vs  West Ham United FC
+  ────────────────────────────────────────
+    Kickoff: Sun 22 Mar 14:15
+    1x2: Home Win @ 2.02 with Matchbook  →  VALUE BET [WATCH]
+      Our model: 54.6%  |  Market fair: 48.9%  |  Edge: +5.7%
+      Reliability score: 46.4/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [WATCH]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 25.37 units (2.54% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 2.02 | second-best 2.02 | average 1.94
+    Kickoff: Sun 22 Mar 14:15
+    home_win: Home Win @ 2.02 with Matchbook  →  VALUE BET [WATCH]
+      Our model: 54.6%  |  Market fair: 48.9%  |  Edge: +5.7%
+      Reliability score: 46.4/100  |  Agreement: 6 market(s)
+      Model thinks: VALUE BET [WATCH]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 25.37 units (2.54% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 2.02 | second-best 2.02 | average 1.94
+    Kickoff: Sun 22 Mar 14:15
+    over_2_5: Over 2.5 Goals @ 1.87 with Matchbook  →  WATCHLIST [PASS]
+      Our model: 57.2%  |  Market fair: 52.4%  |  Edge: +4.8%
+      Reliability score: 44.5/100  |  Agreement: 6 market(s)
+      Model thinks: WATCHLIST [PASS]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 19.96 units (2.00% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 1.87 | second-best 1.74 | average 1.76
+
+  FC Augsburg  vs  VfB Stuttgart
+  ────────────────────────────────────────
+    Kickoff: Sun 22 Mar 18:30
+    1x2: Away Win @ 2.08 with Betfair  →  WATCHLIST [PASS]
+      Our model: 51.5%  |  Market fair: 47.4%  |  Edge: +4.1%
+      Reliability score: 42.8/100  |  Agreement: 6 market(s)
+      Model thinks: WATCHLIST [PASS]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 16.27 units (1.63% bankroll)
+      Aggressive Kelly cap: 5.00% bankroll
+      Market comparison: best 2.08 | second-best 2.06 | average 1.97
+    Kickoff: Sun 22 Mar 18:30
+    over_2_5: Under 2.5 Goals @ 2.40 with Casumo  →  WATCHLIST [PASS]
+      Our model: 41.4%  |  Market fair: 39.2%  |  Edge: +2.1%
+      Reliability score: 37.7/100  |  Agreement: 6 market(s)
+      Model thinks: WATCHLIST [PASS]
+      Suggested stake: No bet
+      Safe Kelly: 0.00 units (0.00% bankroll)
+      Aggressive Kelly cap: 0.00% bankroll
+      Market comparison: best 2.40 | second-best 2.40 | average 2.36
+    Kickoff: Sun 22 Mar 18:30
+    home_win: Home Win @ 3.60 with Matchbook  →  PASS
+      Our model: 23.6%  |  Market fair: 27.3%  |  Edge: -3.7%
+      Reliability score: 33.5/100  |  Agreement: 6 market(s)
+      Model thinks: PASS
+      Suggested stake: No bet
+      Safe Kelly: 0.00 units (0.00% bankroll)
+      Aggressive Kelly cap: 0.00% bankroll
+      Market comparison: best 3.60 | second-best 3.60 | average 3.37
+
+  Everton FC  vs  Chelsea FC
+  ────────────────────────────────────────
+    Kickoff: Sat 21 Mar 17:30
+    1x2: Home Win @ 3.65 with Matchbook  →  WATCHLIST [PASS]
+      Our model: 30.5%  |  Market fair: 27.2%  |  Edge: +3.3%
+      Reliability score: 41.1/100  |  Agreement: 6 market(s)
+      Model thinks: WATCHLIST [PASS]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 10.57 units (1.06% bankroll)
+      Aggressive Kelly cap: 4.23% bankroll
+      Market comparison: best 3.65 | second-best 3.65 | average 3.41
+    Kickoff: Sat 21 Mar 17:30
+    home_win: Home Win @ 3.65 with Matchbook  →  WATCHLIST [PASS]
+      Our model: 30.5%  |  Market fair: 27.2%  |  Edge: +3.3%
+      Reliability score: 41.1/100  |  Agreement: 6 market(s)
+      Model thinks: WATCHLIST [PASS]
+      Suggested stake: Small stake (6.25 units)
+      Safe Kelly: 10.57 units (1.06% bankroll)
+      Aggressive Kelly cap: 4.23% bankroll
+      Market comparison: best 3.65 | second-best 3.65 | average 3.41
+    Kickoff: Sat 21 Mar 17:30
+    over_2_5: Under 2.5 Goals @ 2.08 with Matchbook  →  WATCHLIST [PASS]
+      Our model: 47.4%  |  Market fair: 46.8%  |  Edge: +0.6%
+      Reliability score: 34.2/100  |  Agreement: 6 market(s)
+      Model thinks: WATCHLIST [PASS]
+      Suggested stake: No bet
+      Safe Kelly: 0.00 units (0.00% bankroll)
+      Aggressive Kelly cap: 0.00% bankroll
+      Market comparison: best 2.08 | second-best 2.02 | average 2.02
+
+------------------------------------------------------------
+Disclaimer: These are model-generated opinions, not financial
+advice. Always bet responsibly and within your means.
+============================================================
